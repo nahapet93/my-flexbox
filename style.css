@@ -90,11 +90,14 @@ nav li {
     display: flex;
     background: #fff;
     flex-wrap: wrap;
+    flex-flow: row-reverse;
+    justify-content: flex-start;
+    height: 800px;
 }
 
 .box {
     height: 100px;
-    flex: 1 0 200px;
+    flex: 0 0 100px;
 }
 
 .one {
